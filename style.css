@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Architects Daughter';
+    background: url("hero1.jpeg");
+
+}
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    padding: 0 50px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 70px;
+}
+.container3{
+    display: none;
+    position: absolute;
+    top: 26%;
+    left: 40%;  
+}
+textArea{
+    outline: none;
+    border: none;
+    padding: 30px 20px;
+    width: 250px;
+    height: 270px;
+    box-shadow: 10px 10px 20px 10px rgba(0,0, 0,0.2);
+}
+svg{
+    width: 40px;
+}
+#check-icon{
+   position: absolute;
+   right: 12%; top: 5%;
+   cursor: pointer;
+}
+#x-icon{
+    position: absolute;
+    right: 1%; top: 5%;
+    cursor: pointer;
+}
+
+
